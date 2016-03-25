@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Android internship tasks</string>
+
+    <string name="image_in_rec">Images</string>
+
+    <string name="hint_created">Created</string>
+    <string name="hint_resolve">Fix until</string>
+    <string name="hint_registered">Registered</string>
+    <string name="hint_responsible">Responsible</string>
+
+    <string name="text_created">25 february 2016</string>
+    <string name="text_registered">26 february 2016</string>
+    <string name="text_resolve">29 february 2016</string>
+    <string name="text_title">Municipal economy</string>
+    <string name="text_icon_progress">In progress</string>
+    <string name="text_responsible">Dnepropetrovsk MVK ()</string>
+    <string name="text_info">Open the door (near the billboard), District of turn 18 and 19
+         trams at Prospect Mira from Donetsk highway</string>
+    <!--PIC-->
+    <string name="pic1">https://img-fotki.yandex.ru/get/38067/84276569.9/0_12a05f_5116676f_XL.jpg</string>
+    <string name="pic2">https://img-fotki.yandex.ru/get/38067/84276569.9/0_12a060_9fe2a1be_XL.jpg</string>
+    <string name="pic3">https://img-fotki.yandex.ru/get/38067/84276569.9/0_12a061_2552839_XL.jpg</string>
+    <string name="pic4">https://img-fotki.yandex.ru/get/38067/84276569.9/0_12a062_a0463460_XL.jpg</string>
+
+    <string name="title_toolbar">CE-1257218</string>
+
+</resources>
