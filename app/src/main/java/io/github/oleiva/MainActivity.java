@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import io.github.oleiva.R;
-
 
 import java.util.ArrayList;
 
