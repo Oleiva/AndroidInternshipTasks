@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar;
+        Toolbar toolbar; //[Comment] Bad. Toolbar toolbar = (Toolbar)findViewById(R.id.toolBar);
         toolbar = (Toolbar)findViewById(R.id.toolBar);
-        assert toolbar != null;
+        assert toolbar != null; //[Comment] Use if/else
         toolbar.setTitle(R.string.title_toolbar);
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        ArrayList<Uri> picList= new ArrayList<>();
+        ArrayList<Uri> picList= new ArrayList<>(); //[Comment] Use abstraction instead of realization
         picList.add(Uri.parse(getString(R.string.pic1)));
         picList.add(Uri.parse(getString(R.string.pic2)));
         picList.add(Uri.parse(getString(R.string.pic3)));
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         init();
         setAllText();
 
-        RecyclerImageAdapter myAdapter = new RecyclerImageAdapter(this,picList);
+        RecyclerImageAdapter myAdapter = new RecyclerImageAdapter(this,picList); //[Comment] Your adapter?
         LinearLayoutManager manager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
         mRecyclerView.setLayoutManager(manager);
         mRecyclerView.setAdapter(myAdapter);

@@ -20,7 +20,7 @@ public class RecyclerImageAdapter extends RecyclerView.Adapter {
     private Context mContext;
 
     public RecyclerImageAdapter(Context mContext, ArrayList<Uri> mPictures) {
-        this.mContext = mContext;
+        this.mContext = mContext; //[Comment] Unnecessary this
         this.mPictures = mPictures;
     }
 
